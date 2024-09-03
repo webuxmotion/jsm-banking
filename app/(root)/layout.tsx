@@ -1,4 +1,3 @@
-import HeaderBox from '@/components/HeaderBox'
 import React from 'react'
 
 const RootLayout = ({
@@ -8,7 +7,7 @@ const RootLayout = ({
   }>) => {
   return (
     <div>
-        <HeaderBox />
+        SIDEBAR
         {children}
     </div>
   )
